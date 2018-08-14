@@ -273,6 +273,9 @@ public class CrazyEightsGame implements CardGame {
 			layout.putConstraint(SpringLayout.SOUTH, contentPane, 5, SpringLayout.SOUTH, scroll);
 
 			frame.setSize(275, (yourcards.size() + 2) * 40 + scroll.getHeight() + 5);
+			
+			System.out.println("Jello");
 		}
 	}
 }
+
